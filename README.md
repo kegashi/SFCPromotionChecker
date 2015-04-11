@@ -6,10 +6,16 @@
 `$ git clone git@github.com:kegashi/SFCPromotionChecker.git`
 
 
-## Chenge Directory
-`$ cd SFCPromotionChecker`
+## Change Directory
+`$ cd SFCPromotionChecker/cgi-bin`
 
-#  Launch the `CGIHTTPServer`
+## Change the permission in `hello.py`
+`$ chmod 755 hello.py`
+
+## Change Directory
+`$ cd ..`
+
+##  Launch the `CGIHTTPServer`
 `$ python -m CGIHTTPServer 12345`
 
 ##Have Fun :D
