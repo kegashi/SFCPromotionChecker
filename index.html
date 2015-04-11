@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+	<title>SFC 進学チェッカー</title>
+</head>
+<body bgcolor="#cbd7e4">
+<h2><font color="#00f">S</font><font color="#f00">F</font><font color="#00f">C</font><font color="#f00">進</font><font color="#00f">学</font><font color="#f00">要</font><font color="#00f">件</font><font color="#f00">確</font><font color="#00f">認</font></h2>
+    <form action="hello.py" method="GET">
+       	学部: 
+        <select name="gakubu" size="1" />
+		<option value="0" label="選択する">
+		<option value="1" label="総合政策学部">
+		<option value="2" label="環境情報学部">
+	</select><br />
+	在籍学期数:
+	<select name="zaiseki" size="1" />
+		<option value="0" label="選択する">
+		<option value="0" label="0">
+		<option value="1" label="1">
+		<option value="2" label="2">
+		<option value="3" label="3">
+		<option value="4" label="4">
+		<option value="5" label="5">
+		<option value="6" label="6">
+		<option value="7" label="7">
+		<option value="8" label="8以上">
+	</select><br />
+	<p>取得単位数(半角)を入力してください。</p>
+	01-01-01 総合口座科目: <input type="text" value="0" name="part111" /><br />
+	02-01-01 リフレッシャー科目: <input type="text" value="0" name="part211" /><br />
+	03-01-01 創造支援系科目 創造実践科目: <input type="text" value="0" name="part311" /><br />
+	03-02-01 創造支援系科目 創造技法科目: <input type="text" value="0" name="part321" /><br />
+	03-03-01 創造支援系科目 創造技法プログラミング科目 A系列: <input type="text" value="0" name="part331" /><br />
+	03-03-02 創造支援系科目 創造技法プログラミング科目 B系列: <input type="text" value="0" name="part332" /><br />
+	03-03-03 創造支援系科目 創造技法プログラミング科目 C系列: <input type="text" value="0" name="part333" /><br />
+	03-03-04 創造支援系科目 創造技法プログラミング科目 D系列: <input type="text" value="0" name="part334" /><br />
+	03-03-05 創造支援系科目 創造技法プログラミング科目 E系列: <input type="text" value="0" name="part335" /><br />
+	03-04-01 創造支援系科目 創造技法ナレッジスキル科目: <input type="text" value="0" name="part341" /><br />
+	03-05-01 創造支援系科目 創造技法言語コミュニケーション科目 英語: <input type="text" value="0" name="part351" /><br />
+	03-05-02 創造支援系科目 創造技法言語コミュニケーション科目 朝鮮: <input type="text" value="0" name="part352" /><br />
+	03-05-03 創造支援系科目 創造技法言語コミュニケーション科目 中国: <input type="text" value="0" name="part353" /><br />
+	03-05-04 創造支援系科目 創造技法言語コミュニケーション科目 マレー・インド: <input type="text" value="0" name="part354" /><br />
+	03-05-05 創造支援系科目 創造技法言語コミュニケーション科目 アラビア: <input type="text" value="0" name="part355" /><br />
+	03-05-06 創造支援系科目 創造技法言語コミュニケーション科目 ドイツ: <input type="text" value="0" name="part356" /><br />
+	03-05-07 創造支援系科目 創造技法言語コミュニケーション科目 フランス: <input type="text" value="0" name="part357" /><br />
+	03-05-08 創造支援系科目 創造技法言語コミュニケーション科目 スペイン: <input type="text" value="0" name="part358" /><br />
+	03-05-09 創造支援系科目 創造技法言語コミュニケーション科目 日本: <input type="text" value="0" name="part359" /><br />
+	03-05-10 創造支援系科目 創造技法言語コミュニケーション科目 ロシア: <input type="text" value="0" name="part3510" /><br />
+	03-05-11 創造支援系科目 創造技法言語コミュニケーション科目 イタリア: <input type="text" value="0" name="part3511" /><br />
+	03-06-01 創造支援系科目 創造技法ウェルネス科目 心身ウェルネス科目 ウェルネス: <input type="text" value="0" name="part361" /><br />
+	03-06-02 創造支援系科目 創造技法ウェルネス科目 心身ウェルネス科目 体育: <input type="text" value="0" name="part362" /><br />
+	03-07-01 創造支援系科目 創造誘発科目 :<input type="text" value="0" name="part371" /><br />
+	04-01-01 先端支援系科目 先端発見科目 :<input type="text" value="0" name="part411" /><br />
+	04-02-01 先端支援系科目 創造導入科目 :<input type="text" value="0" name="part421" /><br />
+	04-02-09 先端支援系科目 創造導入科目(他学部) :<input type="text" value="0" name="part429" /><br />
+        04-03-01 先端支援系科目 創造開拓科目 :<input type="text" value="0" name="part431" /><br />
+	04-03-09 先端支援系科目 創造開拓科目(他学部) :<input type="text" value="0" name="part439" /><br />
+	05-01-01 研究プロジェクト科目 研究会 :<input type="text" value="0" name="part511" /><br />
+	05-01-02 研究プロジェクト科目 卒業プロジェクト :<input type="text" value="0" name="part512" /><br />
+	05-01-03 研究プロジェクト科目 その他 :<input type="text" value="0" name="part513" /><br />
+	06-01-09 他学部等設置科目 :<input type="text" value="0" name="part619" /><br />
+	07-01-01 教職課程教科に関する科目 :<input type="text" value="0" name="part711" /><br />
+	60-01-01 特設科目 :<input type="text" value="0" name="part6011" /><br />
+	90-01-01 自由科目 :<input type="text" value="0" name="part9011" /><br />
+	90-09-02 自由科目 政策・メディア研究科 :<input type="text" value="0" name="part9092" /><br />
+	<input type="submit" name="submit" value="進級要件確認" /><br />
+    </form>
+    <hr>
+    <p>@zukky</p>
+
+
+
+
+<!--
+    <h1>POSTメソッド</h1>
+    <form action="hello.py" method="POST">
+        貴方の名前を教えて下さい。
+        <input type="text" name="name" />
+	<input type="text" name="addr" />
+        <input type="submit" name="submit" />
+    </form>
+-->
+</body>
+</html>
